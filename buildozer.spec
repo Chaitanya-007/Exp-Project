@@ -4,7 +4,7 @@
 title = Expense Tracker
 
 # (str) Package name
-package.name = myapp
+package.name = exptrack
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6,hostpython3==3.7.6,kivy,kivymd,pillow
+requirements = python3==3.7.6,kivy,kivymd,pillow,sqlite3,hostpython3==3.7.6
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
